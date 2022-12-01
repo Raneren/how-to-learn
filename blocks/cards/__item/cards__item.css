@@ -1,0 +1,11 @@
+.cards__item {
+  box-sizing: border-box;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/*Делаем отступы вокруг 2й и 5й карточки*/
+.cards__item:nth-child(3n-1) {
+  margin: 0 100px;
+}
